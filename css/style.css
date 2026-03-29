@@ -1,14 +1,33 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background: linear-gradient(to bottom, #1ea93a, #6a0aa1, #1ea93a, #6a0aa1);
     color: #333333;
     margin: 20px;
 }
 
 h1 {
-    color: #0066cc;
+    color: #e3caff;
 }
 
 h2 {
-    color: #444444;
+    color: #fbaa4e;
+}
+
+
+div.highlight {
+    color: rgb(246, 255, 0);
+    background-color: rgba(180, 157, 157, 0.564);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(255, 36, 12, 0.692);
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+div.red {
+    color: rgb(255, 0, 0);
+    background-color: rgba(59, 51, 51, 0.785);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(43, 169, 227, 0.692);
+    border: 1px solid rgba(128, 128, 128, 0.4);
 }
